@@ -38,37 +38,4 @@ We have included the following packages in the `pubspec.yaml` file:
 
 For this machine problem, you may also make use of other third-party packages found on [pub.dev](https://pub.dev/), provided you request approval in advance.
 
-## 3. Sample projects
 
-Here are some ideas for projects that satisfy the requirements above:
-
-1. Stock/Cryptocurrency tracker: an app that allows the user to search for and track stock or cryptocurrency prices. The user can add stocks/cryptocurrencies to a watchlist, and the app will display the current price and price history. The watchlist can be persisted. Price data can be retrieved from a financial data API (e.g., [Alpha Vantage](https://www.alphavantage.co) or [CoinAPI](https://www.coinapi.io/))
-
-2. GitHub repository browser: an app that allows the user to browse GitHub repositories and view some of their details. The repository data should be retrieved from the [GitHub REST API](https://docs.github.com/en/rest). A list of favorite repositories can be persisted.
-
-3. News reader: an app that allows the user to search for and browse news articles from a news API (e.g., [NewsAPI](https://newsapi.org/)). Previous searches and bookmarked/read articles can be persisted.
-
-4. Todo-list/Task manager: an app that allows the user to create and manage task lists (maybe with categories or sublists) persisted in a cloud database. Some form of user identification/authentication (for collaboration) may be implemented.
-
-## 4. Testing
-
-In your `REPORT.md` file, please indicate which of the listed platforms you have tested your app on. We will test your application by building and running it in one of your selected platforms, and manually verifying that it meets the requirements outlined above, based on additional information you provide in your report.
-
-Additionally, you must also include a test suite comprising the following:
-
-- At least 5 distinct unit tests that focus on testing the functionality of your model classes.
-- At least 5 distinct widget tests that focus on testing the functionality of your custom widgets.
-- At least one integration test group that demonstrates the correctness of some core feature(s) of your app.
-
-## 5. Grading
-
-This machine problem is worth 50 points, broken down as follows:
-
-- 2 points: a completed `REPORT.md` file with the required information. Because of the flexible nature of this MP, we ask that you include more information that will help us test and evaluate your work. Please read and complete the report file carefully. **Without this we will not evaluate your submission!**
-- 8 points: there should be at least 3 separate screens/pages in your application, each of which should be implemented as a separate widget, and can be reach either as the "home" page or via some form of navigation.
-- 10 points: at least one of the pages in your application should be backed by a stateful widget, which in turn should be backed by a custom model class, which makes use of some form of state management.
-- 10 points: some user-updateable data is correctly persisted across application launches (either locally or in the cloud).
-- 10 points: some data is dynamically accessed from an external source (e.g., a RESTful or cloud-based API) and displayed it in some way.
-- 10 points: the requisite number of unit, widget, and integration tests are included, and they pass.
-
-**If your code does not build, you will receive a zero for the machine problem.**
